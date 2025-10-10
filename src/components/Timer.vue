@@ -41,24 +41,32 @@
     }
 
     .container {
-        margin: 2rem;
+        padding: 2rem;
+        background-color: rgb(30, 66, 29);
+        border: 4px solid rgb(65, 174, 19);
+        border-radius: 20px;
+        width: 450px;
+        justify-content: left;
+        align-items: center;
     }
 
     .segmented {
         font-size: 4rem;
         font-family: 'DSEG7';
+        color: rgb(93, 255, 25);
     }
 
     .segmented-faded {
         font-size: 4rem;
         font-family: 'DSEG7';
-        color: #e5e5e5;
+        color: rgb(50, 85, 53);
     }
     
     .segmented-small {
         font-size: 2rem;
         font-family: 'DSEG14';
         margin-left: 2rem;
+        color: rgb(93, 255, 25);
     }
 
     .time-display {
