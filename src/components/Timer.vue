@@ -7,7 +7,6 @@
             <span class="segmented-faded">88:88:88</span>
         </div>
     </div>
-    
 </template>
 
 <script setup lang="ts">
