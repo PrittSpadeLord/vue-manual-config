@@ -7,9 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "audit-check": "npm audit --audit-level=high || npm audit fix",
+    "build": "npm run audit-check && npm run type-check && vite build",
     "dev": "vite",
-    "build": "(npm audit || npm audit fix) && vue-tsc -b && vite build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "vue-tsc -b"
   },
   "dependencies": {
     "vue": "^3.5.24"

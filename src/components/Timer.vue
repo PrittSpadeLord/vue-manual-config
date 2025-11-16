@@ -31,40 +31,40 @@
 <style>
     @font-face {
         font-family: 'DSEG7';
-        src: url('../fonts/DSEG7Classic-Regular.woff2') format('woff2'), url('../fonts/DSEG7Classic-Regular.woff') format('woff');
+        src: url('../fonts/DSEG7Classic-Regular.woff2') format('woff2');
     }
 
     @font-face {
         font-family: 'DSEG14';
-        src: url('../fonts/DSEG14Classic-Regular.woff2') format('woff2'), url('../fonts/DSEG14Classic-Regular.woff') format('woff');
+        src: url('../fonts/DSEG14Classic-Regular.woff2') format('woff2');
     }
 
     .container {
-        padding: 2rem;
+        padding: 2vw;
         background-color: rgb(30, 66, 29);
         border: 4px solid rgb(65, 174, 19);
-        border-radius: 20px;
-        width: 450px;
+        border-radius: 1.25vw;
+        width: 26.75vw;
         justify-content: left;
         align-items: center;
     }
 
     .segmented {
-        font-size: 4rem;
+        font-size: 4vw;
         font-family: 'DSEG7';
         color: rgb(93, 255, 25);
     }
 
     .segmented-faded {
-        font-size: 4rem;
+        font-size: 4vw;
         font-family: 'DSEG7';
         color: rgb(50, 85, 53);
     }
     
     .segmented-small {
-        font-size: 2rem;
+        font-size: 2vw;
         font-family: 'DSEG14';
-        margin-left: 2rem;
+        margin-left: 2vw;
         color: rgb(93, 255, 25);
     }
 
