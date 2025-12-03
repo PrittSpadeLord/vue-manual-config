@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'rolldown-vite'
 import vue from '@vitejs/plugin-vue'
 import htmlMinifier  from 'vite-plugin-html-minifier'
 
