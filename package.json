@@ -7,10 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "audit-check": "pnpm audit --audit-level=high || pnpm audit fix",
-    "build": "pnpm run audit-check && pnpm run type-check && vite build",
+    "audit-check": "$npm_execpath audit --audit-level=high || $npm_execpath audit fix",
+    "build": "$npm_execpath run audit-check && $npm_execpath run type-check && vite build",
     "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "vue-tsc -b"
   },
   "dependencies": {
